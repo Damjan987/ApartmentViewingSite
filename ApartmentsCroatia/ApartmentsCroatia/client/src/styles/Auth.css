@@ -1,0 +1,26 @@
+a:link,
+a:visited {
+  color: lightblue;
+}
+
+a:hover,
+a:active {
+  color: lightblue;
+}
+
+input,
+textarea {
+  box-shadow: 2.5px 2.5px 7px lightblue;
+}
+
+label {
+  color: lightblue;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+}
