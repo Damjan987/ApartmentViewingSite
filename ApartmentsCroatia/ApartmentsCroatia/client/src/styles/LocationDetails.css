@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 20%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.elementImage {
+  height: 20rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 1301px) {
+  .elementImage {
+    height: 20rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .elementImage {
+    height: 40rem;
+    width: 100%;
+  }
+}

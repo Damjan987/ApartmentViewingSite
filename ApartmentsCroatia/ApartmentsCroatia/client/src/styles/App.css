@@ -1,0 +1,11 @@
+.signup-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
