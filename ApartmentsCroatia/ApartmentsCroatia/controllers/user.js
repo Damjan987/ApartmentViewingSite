@@ -21,8 +21,6 @@ exports.read = async (req, res) => {
     const userId = req.params.userId;
     const user = await User.findById(userId);
 
-    console.log(user.posts);
-
     res.json(user);
   } catch (err) {
     res.status(500).json({
